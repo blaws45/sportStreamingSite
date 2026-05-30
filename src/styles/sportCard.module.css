@@ -1,0 +1,22 @@
+.mainCard {
+    flex: 0 0 300px;
+    background-color: #1c1c1c;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.mainCard p {
+    margin-left: 5%;
+    color: white;
+}
+
+.mainCard img {
+    width: 100%;
+    height: 75%;
+}
+
+@media (orientation: portrait) {
+    .mainCard {
+        flex: 0 0 200px;
+    }
+}

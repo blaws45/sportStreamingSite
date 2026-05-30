@@ -1,0 +1,50 @@
+@media (max-width: 800px), (max-height: 600px) {
+    .subscriptionCard {
+        flex: 0 40%;
+        width: 40%;
+        margin: 2%;
+    }
+}
+.subscriptionCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background:
+            linear-gradient(#202020, #000000) padding-box,
+            linear-gradient(-45deg, #b1b1b1, #1c1c1c 50%) border-box;
+    transition: width 0.3s ease;
+    color: white;
+}
+.subscriptionCard:hover {
+    width: 200%;
+    box-shadow: 1px 1px 20px 0 #a11ee8;
+    border: none;
+}
+.subscriptionCard * {
+    flex-shrink: 5;
+}
+.details {
+    float: left;
+    padding: 0 0 0 10%;
+}
+.buyButton {
+    border: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #a11ee8;
+    background: linear-gradient(to bottom, #a959e4, #8a12e6);
+    color: white;
+    width: 100%;
+    padding: 10%;
+    margin-top: 10%;
+}
+.buyButton:hover {
+    background: linear-gradient(to bottom, #b87fe3, #9a31ea);
+}
