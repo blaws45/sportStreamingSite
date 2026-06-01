@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from "./Home";
 import Navbar from './Navbar'
@@ -9,12 +9,12 @@ import Subscriptions from "./Subscriptions";
 
 function App() {
   return (
-      <HashRouter>
+      <BrowserRouter  basename="/sportStreamingSite">
           <Routes>
               <Route path="/" element={<Home />}></Route>
               <Route path="/Subscriptions" element={<Subscriptions />}></Route>
           </Routes>
-      </HashRouter>
+      </BrowserRouter>
   );
 }
 
