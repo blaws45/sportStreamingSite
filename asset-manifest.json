@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sportStreamingSite/static/css/main.86e5504f.css",
-    "main.js": "/sportStreamingSite/static/js/main.88573134.js",
+    "main.js": "/sportStreamingSite/static/js/main.b2914fb0.js",
     "static/js/453.7d6a46b2.chunk.js": "/sportStreamingSite/static/js/453.7d6a46b2.chunk.js",
     "static/media/purpleHero.png": "/sportStreamingSite/static/media/purpleHero.3d4a23ff2bf67eaf614c.png",
     "static/media/purplePlayersZoomed.png": "/sportStreamingSite/static/media/purplePlayersZoomed.6b736bb7a788f9a0b6cf.png",
@@ -9,11 +9,11 @@
     "static/media/soccer_thumbnail.jpg": "/sportStreamingSite/static/media/soccer_thumbnail.f30a56c208871d737ed1.jpg",
     "index.html": "/sportStreamingSite/index.html",
     "main.86e5504f.css.map": "/sportStreamingSite/static/css/main.86e5504f.css.map",
-    "main.88573134.js.map": "/sportStreamingSite/static/js/main.88573134.js.map",
+    "main.b2914fb0.js.map": "/sportStreamingSite/static/js/main.b2914fb0.js.map",
     "453.7d6a46b2.chunk.js.map": "/sportStreamingSite/static/js/453.7d6a46b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86e5504f.css",
-    "static/js/main.88573134.js"
+    "static/js/main.b2914fb0.js"
   ]
 }
