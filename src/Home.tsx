@@ -21,13 +21,13 @@ function Home() {
     const btnRef3 = useRef(null);
 
     useEffect(() => {
-
         const interval = setInterval(() => {
+        const isPortrait = window.matchMedia("(orientation: portrait)").matches;
             const sportsScroll = scrollRef.current;
             if (!sportsScroll) return;
 
             const maxScroll = sportsScroll.scrollWidth - sportsScroll.clientWidth;
-            if (!hovered) {
+            if (!hovered && !isPortrait) {
                 if (sportsScroll.scrollLeft > maxScroll - 10) {
                     sportsScroll.scrollTo({
                         left: 0,

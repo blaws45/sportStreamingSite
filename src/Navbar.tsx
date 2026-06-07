@@ -6,7 +6,7 @@ function Navbar() {
 
     return (
         <ul className={styles.navbar}>
-            <li className={styles.navbarItem}><Link to={"/"}>Home</Link></li>
+            <li className={styles.navbarItem}><Link to={"/"}>{"< Home"}</Link></li>
         </ul>
     )
 }
