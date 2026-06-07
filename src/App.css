@@ -1,3 +1,4 @@
+
 .App {
     margin: 0;
     padding: 0;
@@ -33,7 +34,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    font: bold 2.5vw/1.5 "Roboto", sans-serif;
+    font: bold 30px "Roboto", sans-serif;
 }
 
 .contentOverlay {
@@ -59,18 +60,17 @@ body {
     );
 }
 
-.contentOverlay p, button{
-    margin: 0 0 7% 0;
-    color: white;
-}
 
 
 .contentOverlay p {
+    color: white;
     font: bold 1.5vw/1.5 "Roboto", sans-serif;
 }
+
 .contentOverlay button {
-    width: 100px;
-    height: 5vh;
+    color: white;
+    width: 50%;
+    height: 50px;
     border-style: none;
     background-color: #a11ee8;
     border-radius: 10px;
@@ -111,5 +111,24 @@ h2 {
     margin: 2%;
 }
 
+@media (orientation: portrait) {
+    .titleOverlay h1 {
+        font: bold 8vw/1.5 "Roboto", sans-serif;
+    }
+
+    .contentOverlay {
+        width: 40%;
+        top: 50%;
+    }
+
+    .contentOverlay p {
+        font: bold 40px "Roboto", sans-serif;
+    }
+
+    .contentOverlay button {
+        font-size: 30px;
+        height: 75px;
+    }
+}
 
 

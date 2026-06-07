@@ -1,3 +1,13 @@
+@media (orientation: portrait) {
+    .navbar {
+        height: 5vh;
+        font-size: 40px;
+    }
+
+    .navbar a {
+        align-items: center;
+    }
+}
 .navbar{
     list-style-type: none;
     margin: 0;
@@ -10,8 +20,10 @@
 }
 .navbarItem {
     float: left;
+    height: 75%;
 }
 .navbarItem a {
+    height: 100%;
     display: block;
     color: white;
     text-align: center;

@@ -1,6 +1,11 @@
 @media (orientation: portrait) {
     .subscriptionCard {
         flex: 0 0 calc(50% - 20px);
+        font-size: 30px ;
+    }
+
+    .subscriptionCard .buyButton {
+        font-size: 30px;
     }
 }
 

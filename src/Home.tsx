@@ -59,7 +59,7 @@ function Home() {
                     <Link to={"/Subscriptions"}><button id={"joinBtn"}>Join Now</button></Link>
                 </div>
             </div>
-            <h2>Watch sport <span style={{backgroundColor: 'red', borderRadius: '10px', paddingLeft: '5px', paddingRight: '5px'}}>live</span></h2>
+            <h2 className={"liveText"}>Watch sport <span style={{backgroundColor: 'red', borderRadius: '10px', paddingLeft: '5px', paddingRight: '5px'}}>live</span></h2>
             {/*sports list*/}
             <div ref={scrollRef} className={"sportsScroll"} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                 <SportCard sport={"nba"}></SportCard>

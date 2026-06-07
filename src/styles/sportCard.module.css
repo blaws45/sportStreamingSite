@@ -17,6 +17,8 @@
 
 @media (orientation: portrait) {
     .mainCard {
-        flex: 0 0 200px;
+        flex: 0 0 500px;
+        height: 400px;
+        font-size: 35px;
     }
 }
