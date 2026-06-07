@@ -2,14 +2,15 @@ import React, {useEffect, useRef, useState} from "react";
 import gsap from "gsap";
 import SubscriptionCard from "./SubscriptionCard";
 import Navbar from "./Navbar";
-import horsesImg from "./horses.jpg"
-import { Link } from "react-router-dom"
+import horsesImg from "./horses.jpg";
+import { Link } from "react-router-dom";
 import mainImg from "./images/mainImg.jpg";
 import officeImg from "./office.jpg"
-import celebrationImg from "./celebration.png"
+import celebrationImg from "./celebration.png";
 import SportCard from "./SportCard";
-import purpleHero from "./images/purpleHero.png"
+import purpleHero from "./images/purpleHero.png";
 import sportCard from "./SportCard";
+import "./home.css"
 
 
 function Home() {

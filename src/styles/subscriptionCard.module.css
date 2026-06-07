@@ -1,10 +1,9 @@
-@media (max-width: 800px), (max-height: 600px) {
+@media (orientation: portrait) {
     .subscriptionCard {
-        flex: 0 40%;
-        width: 40%;
-        margin: 2%;
+        flex: 0 0 calc(50% - 20px);
     }
 }
+
 .subscriptionCard {
     width: 100%;
     display: flex;
@@ -26,19 +25,9 @@
     box-shadow: 1px 1px 20px 0 #a11ee8;
     border: none;
 }
-.subscriptionCard * {
-    flex-shrink: 5;
-}
-.details {
-    float: left;
-    padding: 0 0 0 10%;
-}
 .buyButton {
     border: none;
     border-radius: 5px;
-    border-style: solid;
-    border-width: 0px;
-    border-color: #a11ee8;
     background: linear-gradient(to bottom, #a959e4, #8a12e6);
     color: white;
     width: 100%;

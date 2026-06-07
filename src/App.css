@@ -10,35 +10,8 @@ body {
 .App-header {
     margin: 0;
 }
-.subscriptionPanel {
-    display: flex;
-    gap: 5%;
-    overflow: hidden;
-    padding: 5%;
-    width: 80%;
-    justify-content: center;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%);
-    transition: width 1s ease;
-}
-@media (max-width: 800px), (max-height: 600px){
-    .subscriptionPanel {
-        margin-top: 5%;
-        padding: 0;
-        width: 100%;
-        flex-wrap: wrap;
-        position: unset;
-        top: 0;
-        left: 0;
-        transform: translate(0, 0);
-    }
 
-    .subscriptionPanel > .subscriptionCard {
-        flex: 0 0 50%;       /* each card takes 50% of container height */
-    }
-}
+
 .mainImg {
     display: block;
     width: 100%;
@@ -131,25 +104,6 @@ body {
                     rgba(0,0,0,.6) 60%,
                     rgba(0,0,0,1) 90%
             );
-}
-
-.sportsScroll {
-    width: 98%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    display: flex;
-    flex-direction: row;
-    gap: 4%;
-    margin: 2%;
-
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    &::-webkit-scrollbar {
-        display: none;
-    }
-
-    /* Hide scrollbar for IE, Edge and Firefox */
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
 }
 
 h2 {
