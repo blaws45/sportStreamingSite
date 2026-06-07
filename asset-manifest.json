@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sportStreamingSite/static/css/main.86e5504f.css",
+    "main.css": "/sportStreamingSite/static/css/main.d153b75c.css",
     "main.js": "/sportStreamingSite/static/js/main.c0afb5fd.js",
     "static/js/453.7d6a46b2.chunk.js": "/sportStreamingSite/static/js/453.7d6a46b2.chunk.js",
     "static/media/purpleHero.png": "/sportStreamingSite/static/media/purpleHero.3d4a23ff2bf67eaf614c.png",
@@ -8,12 +8,12 @@
     "static/media/nba_thumbnail.png": "/sportStreamingSite/static/media/nba_thumbnail.5e5afcaf35ff377d2a29.png",
     "static/media/soccer_thumbnail.jpg": "/sportStreamingSite/static/media/soccer_thumbnail.f30a56c208871d737ed1.jpg",
     "index.html": "/sportStreamingSite/index.html",
-    "main.86e5504f.css.map": "/sportStreamingSite/static/css/main.86e5504f.css.map",
+    "main.d153b75c.css.map": "/sportStreamingSite/static/css/main.d153b75c.css.map",
     "main.c0afb5fd.js.map": "/sportStreamingSite/static/js/main.c0afb5fd.js.map",
     "453.7d6a46b2.chunk.js.map": "/sportStreamingSite/static/js/453.7d6a46b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86e5504f.css",
+    "static/css/main.d153b75c.css",
     "static/js/main.c0afb5fd.js"
   ]
 }
