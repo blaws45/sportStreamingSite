@@ -3,6 +3,9 @@ import styles from "./styles/subscriptionCard.module.css"
 
 
 function SubscriptionCard ()  {
+    function Buy() {
+        alert("This site is currently to show off front end development, purchase logic may be added in future");
+    }
     return (
         <div className={styles.subscriptionCard}>
             <h2>Subscription</h2>
@@ -12,7 +15,7 @@ function SubscriptionCard ()  {
                 <li>details 2</li>
                 <li>details 3</li>
             </ul>
-            <button className={styles.buyButton}>Buy</button>
+            <button className={styles.buyButton} onClick={Buy}>Buy</button>
         </div>
     )
 }

@@ -1,14 +1,5 @@
-@media (orientation: portrait) {
-    .navbar {
-        height: 5vh;
-        font-size: 40px;
-    }
-
-    .navbar a {
-        align-items: center;
-    }
-}
 .navbar{
+    font: bold 20px "Roboto", sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -38,4 +29,14 @@
     box-shadow: 1px 1px 10px 0px #a11ee8;
 }
 
+@media (orientation: portrait) {
+    .navbar {
+        height: 5vh;
+        font-size: 40px;
+    }
+
+    .navbar a {
+        align-items: center;
+    }
+}
 
